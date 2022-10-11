@@ -1,9 +1,5 @@
 
 
-div {
-    display: block;
-}
-
 BODY {
     margin: 20px 0px 20px 0px;
     background-color:black;
@@ -21,12 +17,13 @@ BODY {
 }
 
 .card {
-    /* width: 90%; */
-    width: 317px;
+    
+    width: 350px;
     margin: 35px auto;
     border: 1px solid #ababab;
     border-radius: 10px;
     background-color: #161619;
+    text-align: center;
 }
 
 
@@ -39,17 +36,24 @@ BODY {
     background-position: center;
     border-radius: 10px;
     margin-bottom: 0;
+    text-align: center;
+    color:red;
 }
 
 
 .background-image {
 
     margin: center;
+    width: 100px;
 
 
 }
 
-.p{
+h1, p{
 
-    color:red;
+    
+    text-align: center;
+    color:bisque;
+
 }
+
