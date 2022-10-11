@@ -1,50 +1,4 @@
-.pageHeader {
-    background-color:black;
-    float: left;
-    clear: none;
-    min-height: 150px;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-}
-.pageLeftPanel {
-    background-color: black;
-    float: left;
-    clear: none;
-    min-height: 600px;
-    width: 200px;
-    box-sizing: border-box;
-    padding: 10px;
-}
-.pageContent {
-    background-color: #FFFFFF;
-    margin-left: 100px;
-    float: left;
-    clear: none;
-    min-height: 600px;
-    width: 600px;
-    box-sizing: border-box;
-    padding: 10px;
-}
-.pageRightPanel {
-    background-color: black;
-    float: right;
-    clear: none;
-    min-height: 600px;
-    width: 200px;
-    box-sizing: border-box;
-    padding: 10px;
-}
-.pageFooter {
-    background-color: black;
-    float: left;
-    clear: none;
-    min-height: 50px;
-    width: 100%;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 10px;
-}
+
 
 div {
     display: block;
@@ -57,3 +11,45 @@ BODY {
     font-size: 12pt;
 }
 
+.container {
+    width: 30%;
+    width: 550px; 
+    height: 868px; 
+    min-width: 350px;
+    margin: 53px auto;
+    background: #23252C;
+}
+
+.card {
+    /* width: 90%; */
+    width: 317px;
+    margin: 35px auto;
+    border: 1px solid #ababab;
+    border-radius: 10px;
+    background-color: #161619;
+}
+
+
+
+.top {
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/farazbagher/assignment.github.io/main/a.JPG);
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+
+.background-image {
+
+    margin: center;
+
+
+}
+
+.p{
+
+    color:red;
+}
