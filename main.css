@@ -1,0 +1,31 @@
+ iframe{
+    
+    margin-block-end: 10px;
+
+
+}
+
+.pageHeader {
+    background-color: #FFC9FF;
+    float: left;
+    clear: none;
+    min-height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+div {
+    display: block;
+}
+
+BODY {
+    margin: 20px 0px 20px 0px;
+    background-color: #4F0080;
+    font-family: arial;
+    font-size: 12pt;
+}
+
+html {
+    display: block;
+}
