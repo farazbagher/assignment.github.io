@@ -31,13 +31,13 @@ BODY {
 .top {
     width: 100%;
     background-image: url(https://raw.githubusercontent.com/farazbagher/assignment.github.io/main/a.JPG);
-    height: 230px;
+    height: 190px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     margin-bottom: 0;
     text-align: center;
-    color:red;
+    
 }
 
 
@@ -57,3 +57,22 @@ h1, p{
 
 }
 
+p2{
+
+    text-align: center;
+    color: bisque;
+    margin-bottom: 50px;
+}
+
+.content{
+
+    text-align: center;
+    color: bisque;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
