@@ -25,12 +25,17 @@ BODY {
     text-align: center;
 }
 
+blockquote{
+    color:bisque;
+    text-align: center;
+}
+
 
 
 .top {
     width: 100%;
     background-image: url(https://raw.githubusercontent.com/farazbagher/assignment.github.io/main/a.JPG);
-    height: 190px;
+    height: 350px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
