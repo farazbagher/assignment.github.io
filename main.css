@@ -56,8 +56,16 @@ h1, p{
     color:bisque;
 
 }
+h2{
 
-p2{
+    text-align: center;
+    color:bisque;
+
+
+}
+
+
+p2, p3{
 
     text-align: center;
     color: bisque;
@@ -79,12 +87,22 @@ p2{
   
 
 .flex-container > div {
-    background-color: rgb(79, 47, 211);
-    width: 100px;
-    margin: 75px;
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    margin: 90px;
+    margin-top: 10px;
     text-align: center;
-    line-height: 65px;
-    font-size: 30px;
+    color: blue;
+    line-height: auto;
+    font: italic;
+    font-size: 25px;
+    text-decoration-color: aqua;
+    border: 2px solid rgb(4, 2, 2);
+    border-radius: 12px;
+    padding: 5px;
+
 
 }
+
+
 
