@@ -115,7 +115,7 @@ p2, p3{
 .footer {
     margin-bottom: 5px;
     display: block;
-    background-color: aqua;
+    
 }
 
 
@@ -128,12 +128,13 @@ p2, p3{
   }
   
   .flex-container1 > div {
-    width: 100px;
-    margin: 35px;
-    margin-top: 30px;
-    text-align: center;
-    line-height: auto;
-    font-size: 25px;
+    
+    width: 50px;
+    margin: 50px;
+    height: 50px;
+    
+    
   }
-
+  
+  
 
