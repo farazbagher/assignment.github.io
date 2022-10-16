@@ -219,7 +219,7 @@ button {
     padding: 10px;
     color: #23252C;
     background-color: #414247;
-    width: auto;
+    align-items: center;
     
   }
   
