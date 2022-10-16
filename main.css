@@ -9,7 +9,7 @@ body {
     height: 868px; 
     min-width: 350px;
     margin: 53px auto;
-    background: #23252C;
+    background: #000000;
     border: 2px solid rgb(4, 2, 2);
     border-radius: 12px;
     padding: 5px;
@@ -19,81 +19,73 @@ div {
     display: block;
 }
 
-.card {
-    
-    width: 90%;
-    margin: 35px auto;
-    border-radius: 10px;
-    border: 1px #ababab;
-    background-color: #161619;
-    text-align: center;
-}
-
-blockquote{
-    color:bisque;
-    text-align: center;
-}
-
-
-
 .top {
+    margin-bottom: 1px;
     width: 100%;
-    
     height: 300px;
+    padding: 1px;
+    padding-top: 1px;
     background-image: url(https://raw.githubusercontent.com/farazbagher/assignment.github.io/main/a.JPG);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     margin-bottom: 0;
+    text-align: center;  
+    
+}
+
+.card {
+    
+    width: 90%;
+    width: 317px;
+    margin: 35px auto;
+    border-radius: 10px;
+    border: 1px solid #ababab;
+    background-color: #161619;
     text-align: center;
-    
-    
 }
 
-
-.background-image {
-
-    margin: center;
-    width: 100px;
-
-
+blockquote{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 30px;
 }
+
+p5{
+    
+    color:rgb(162, 125, 49);
+    font-size: 15px;
+    margin-left: 145px;
+    padding: 10px;
+}
+
 
 h1, p{
 
-    
     text-align: center;
-    color:bisque;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30PX;;
+    padding: 1px;
 
 }
 h2, h3{
 
     margin-left: 25px;
-    color:bisque;
+    color:rgb(255, 255, 255);
     font-size: medium;
+    margin-bottom: 20px;
 
 
 }
 
-
-p2, p3{
-
-    text-align: center;
-    color: bisque;
-    margin-bottom: 50px;
-}
-
-.content{
-
-    text-align: center;
-    color: bisque;
-}
 
 .contact {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 60px;
+    padding: 20px;
+    margin-bottom:1px;
 }
 button {
 
@@ -163,8 +155,10 @@ button {
 
 
 .footer {
-    margin-bottom: 5px;
+    margin-top: 1px;
     display: block;
+    padding-top: 20px;
+
     
 }
 
@@ -174,7 +168,8 @@ button {
     flex-direction: row;
     border: 2px;
     border-radius: 12px;
-    padding: 2px;
+    padding: 1px;
+    padding-bottom: 100px;
   }
   
   i {
@@ -182,7 +177,7 @@ button {
     width: 20px;
     margin: 50px;
     height: 50px;
-    ;
+    
     
     
     
