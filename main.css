@@ -1,4 +1,7 @@
 
+div {
+    display: block;
+}
 
 body {
     background-color: #23252C;
@@ -8,13 +11,13 @@ body {
 .container {
     
     width: 30%; 
-     
     min-width: 350px;
     margin: 53px auto;
     background: #000000;
     border: 2px solid rgb(177, 177, 177);
     border-radius: 12px;
     padding: 5px;
+    
 }
 
 div {
@@ -57,40 +60,37 @@ blockquote{
 
 t{
     text-align: center;
+    align-items: center;
     color:white;
     font-size: 11px;
     padding: 13px 30px;
     
 }
-blockquote{
-    color:bisque;
-    color:rgb(255, 255, 255);
-    text-align: center;
-    margin-bottom: 30px;
-}
 
-p5{
+
+h5{
     
     color:rgb(162, 125, 49);
     font-size: 15px;
-    margin-left: 145px;
-    padding: 10px;
+    text-align: center;
+    
     
 }
 
-p6{
+h6{
     
     color:rgb(255, 255, 255);
     font-size: 11px;
-    margin-left: 100px;
-    padding-top: 5px;
+    font-weight: 100;
     text-align: center;
+    
     
 }
 h1{
     text-align: center;
     color:rgb(255, 255, 255);
     font-size: 20px;
+    align-items: center;
 
 }
 
@@ -99,6 +99,7 @@ p{
     text-align: center;
     color:rgb(255, 255, 255);
     font-size: 20px;
+    align-items: center;
 
     
    
@@ -112,6 +113,7 @@ h2, h3{
     color:rgb(255, 255, 255);
     font-size: medium;
     margin-bottom: 20px;
+    align-items: center;
 
 
 }
@@ -207,19 +209,22 @@ button {
     margin-bottom: 5px;
     display: block;
     padding-top: 2px;
+    background-color: #414247;
     
 }
 
 
 .flex-container1 {
-    display: flex;
-    flex-direction: row;
     border: 2px;
     border-radius: 12px;
     padding: 10px;
     color: #23252C;
     background-color: #414247;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
     
   }
   
